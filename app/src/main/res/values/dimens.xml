@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--导航栏高度值-->
+    <dimen name="tab_bottom_height">52dp</dimen>
+    <!--导航栏标题文字大小-->
+    <dimen name="navBar_title_size">18sp</dimen>
+    <!--导航栏内边距-->
+    <dimen name="navBar_padding">15dp</dimen>
+</resources>

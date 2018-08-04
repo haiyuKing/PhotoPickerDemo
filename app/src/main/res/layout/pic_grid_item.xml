@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图片九宫格item布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/griditemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <!-- 图片区域 -->
+    <RelativeLayout
+        android:id="@+id/griditemimgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 图片使用src和android:scaleType="centerCrop"、android:adjustViewBounds="true"，可以实现宽高等边 -->
+        <ImageView
+            android:id="@+id/grid_img"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="图片资源"
+            android:scaleType="centerInside"
+            android:background="#343434"
+            android:src="@drawable/img_error" />
+
+    </RelativeLayout>
+
+    <!-- 底部标记上传状态的图标 -->
+    <TextView
+        android:id="@+id/grid_img_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:drawablePadding="2dp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+</LinearLayout>
+

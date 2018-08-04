@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图片九宫格最后一个item布局 -->
+<!-- android:padding="7dp"是item的padding + 2dp(item的边框宽度) -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridfootitemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="#9A9A9A"
+        android:gravity="center">
+
+        <!-- 图片使用src和android:scaleType="centerCrop"、android:adjustViewBounds="true"，可以实现宽高等边 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="添加图片"
+            android:scaleType="center"
+            android:src="@drawable/picture_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加图片"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

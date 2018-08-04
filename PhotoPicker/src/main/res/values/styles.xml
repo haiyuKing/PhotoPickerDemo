@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 仿微信选9图PhotoPicker -->
+    <style name="__picker_customTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/__picker_actionBarTheme</item>
+        <item name="colorPrimary">@color/__picker_colorPrimary</item>
+        <item name="actionBarSize">@dimen/__picker_actionBarSize</item>
+        <item name="colorPrimaryDark">@color/__picker_nav_done_text_color</item>
+    </style>
+
+    <!--<style name="__picker_actionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+    <style name="__picker_actionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="actionBarSize">@dimen/__picker_actionBarSize</item>
+        <item name="android:actionMenuTextAppearance">@style/__picker_toolbar_menu_style</item>
+    </style>
+
+    <!-- 导航栏标题的颜色和大小值设置 -->
+    <style name="__picker_toolbar_title_style">
+        <item name="android:textColor">@color/__picker_nav_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 导航栏menu的颜色和大小值设置 -->
+    <style name="__picker_toolbar_menu_style">
+        <item name="android:textColor">@color/__picker_nav_done_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

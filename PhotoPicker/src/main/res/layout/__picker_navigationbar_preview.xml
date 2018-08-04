@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 导航栏布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/__picker_actionBarSize"
+    android:orientation="horizontal"
+    android:background="@color/__picker_nav_bg"
+    >
+
+    <!-- 返回图标 -->
+    <!-- android:layout_height="match_parent"占据导航栏的整个高度，扩展上下方的触发区域 -->
+    <!-- android:paddingLeft="10dp" android:paddingRight="10dp"扩展左右侧的触发区域  -->
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/__picker_ic_nav_back"
+        android:contentDescription="图片描述"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <!-- 完成文本（后续可以扩展到用于插入图片的导航栏） -->
+    <TextView
+        android:id="@+id/confirmText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="完成"
+        android:textColor="@color/__picker_nav_done_text_color"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="invisible"
+        />
+
+    <!-- 标题 -->
+    <!--android:layout_toRightOf="@id/backImg"
+        android:layout_toLeftOf="@id/handleLayout"-->
+    <!--android:layout_centerInParent="true"-->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="图片预览"
+        android:textColor="@color/__picker_nav_text_color"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

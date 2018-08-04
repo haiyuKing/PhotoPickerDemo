@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android 状态栏着色 -->
+    <color name="__picker_colorPrimary">#378dfc</color>
+    <!-- 导航栏背景色 -->
+    <color name="__picker_nav_bg">#ffffff</color>
+    <!-- 导航栏标题颜色值 -->
+    <color name="__picker_nav_text_color">#434343</color>
+    <!-- 导航栏按钮颜色值 -->
+    <color name="__picker_nav_done_text_color">#1A78EC</color>
+    <color name="__picker_nav_done_ennable_text_color">#c5c5c5</color>
+    <!-- 默认界面背景颜色 -->
+    <!--<color name="normal_bg_color">#F6F6F6</color>-->
+    <color name="__picker_normal_bg_color">#F4F4F4</color>
+
+
+    <!--<color name="__picker_pager_bg">#CA000000</color>-->
+    <color name="__picker_pager_bg">#000000</color>
+    <!--<color name="__picker_selected_bg">#44000000</color>-->
+    <color name="__picker_selected_bg">#CA000000</color>
+    <color name="__picker_black_40">#282828</color>
+    <color name="__picker_common_primary">#f3f3f3</color>
+
+    <!-- 图片目录标题的颜色值 -->
+    <color name="__picker_text_40">#747479</color>
+    <!-- 图片目录数目的颜色值 -->
+    <color name="__picker_text_80">#A3AABA</color>
+    <!-- 图片目录下拉菜单标题的颜色值 -->
+    <color name="__picker_text_120">#757575</color>
+
+    <!-- 点击选中图片的边框颜色值 -->
+    <color name="__picker_item_photo_border_selected">#1A78EC</color>
+    <!-- 未点击选中的图片的边框颜色值 -->
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+</resources>

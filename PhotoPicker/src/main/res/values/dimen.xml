@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+  <dimen name="__picker_item_photo_size">80dip</dimen>
+  <dimen name="__picker_item_camera_size">80dip</dimen>
+  <!-- 可以控制图片目录列表弹窗的高度值 -->
+  <dimen name="__picker_item_directory_height">100dp</dimen>
+
+  <!-- 仿微信选9图PhotoPicker导航栏高度值 -->
+  <dimen name="__picker_actionBarSize">52dip</dimen>
+  <!-- 姑且作为底部导航栏的高度值吧 -->
+  <dimen name="__picker_iwf_actionBarSize">48dip</dimen>
+
+</resources>

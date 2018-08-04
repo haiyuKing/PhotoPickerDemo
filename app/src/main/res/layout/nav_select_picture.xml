@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 选择图片的导航栏布局文件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_bottom_height"
+    android:layout_gravity="center"
+    android:background="#ffffff" >
+
+    <!-- 返回 -->
+    <ImageView
+        android:id="@+id/nav_selpic_edit_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/navBar_padding"
+        android:paddingRight="@dimen/navBar_padding"
+        android:contentDescription="返回图片"
+        android:gravity="center"
+        android:src="@drawable/nav_back" />
+
+    <!-- 完成 -->
+    <TextView
+        android:id="@+id/nav_selpic_edit_save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/navBar_padding"
+        android:paddingRight="@dimen/navBar_padding"
+        android:gravity="center"
+        android:text="@string/nav_confirm_finish"
+        android:textColor="@color/nav_done_text_color"
+        android:textSize="@dimen/navBar_title_size" />
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/nav_selpic_edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="选择图片"
+        android:textColor="@color/navBar_text_normal_color"
+        android:textSize="@dimen/navBar_title_size" />
+
+
+</RelativeLayout>

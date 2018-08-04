@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 导航栏 -->
+    <!--<include layout="@layout/__picker_toolbar"/>-->
+    <include
+        layout="@layout/__picker_navigationbar_preview"
+        android:id="@+id/preview_nav_Layout"/>
+
+
+    <!-- 中间区域，用来切换显示PhotoPickerFragment（图片列表碎片界面）、ImagePagerFragment（图片预览碎片界面） -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

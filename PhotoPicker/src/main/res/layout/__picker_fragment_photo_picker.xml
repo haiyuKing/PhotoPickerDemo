@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_photos"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e9e9"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/__picker_iwf_actionBarSize"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <!--<Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/__picker_all_image"
+            android:textColor="#ffffff"
+            />-->
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="0.0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/__picker_all_image"
+            android:textColor="@color/__picker_text_120"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/up_arrow"
+            android:drawablePadding="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            style="@style/Widget.AppCompat.ActionButton"
+            />
+        
+        <ImageView
+            android:layout_width="0.0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/camera_blue"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@color/__picker_normal_bg_color"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
